@@ -70,7 +70,7 @@ p {
 }
 
 #paper-border {
-  position: absolute;
+  position: static;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -83,6 +83,7 @@ p {
 
 body {
   background-color: #bdc3c7;
+  overflow-y: scroll;
 }
 
 #download {
@@ -115,5 +116,16 @@ body {
     top: 0;
     left: 0;
     margin: 0;
+  }
+}
+
+@media all and (max-height: 11in) {
+  #paper-border {
+    overflow-y: scroll;
+    height: 80%;
+  }
+
+  #download {
+    top: 90%;
   }
 }
