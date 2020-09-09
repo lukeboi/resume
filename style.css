@@ -10,13 +10,20 @@ h1 {
   padding-top: 12px;
   padding-bottom: 2px;
   line-height: 45px;
-  font-weight: 400;
+  font-weight: 200;
+  /* color: #99312b; */
 }
 
 h2 {
   margin-top: 22px;
   line-height: 24px;
   font-weight: 200;
+  color: #1c557a;
+  font-weight: bold;
+}
+
+h3 {
+  margin-left: 2px;
 }
 
 h3 > i {
@@ -107,6 +114,18 @@ body {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
+#dates {
+  display: inline;
+  position: absolute;
+  right: 30px;
+  transform: translateY(-20px);
+  font-size: 13px;
+}
+
+.skills {
+  margin-top: 5px;
+}
+
 @media print {
   .page-border {
     background-color: white;
@@ -119,7 +138,7 @@ body {
   }
 }
 
-@media all and (max-height: 11in) {
+@media all and (max-height: 12in) {
   #paper-border {
     overflow-y: scroll;
     height: 80%;
@@ -128,4 +147,16 @@ body {
   #download {
     top: 90%;
   }
+}
+
+@media print
+{    
+    #paper-border {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    #download {
+      display: none;
+    }
 }
