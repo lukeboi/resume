@@ -1,4 +1,3 @@
 # resume
-My Personal Resume
 
-This is my resume, written in html.
+This is my resume, written in html. View the PDF [here](www.lukefarritor.com).
