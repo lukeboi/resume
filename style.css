@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-  margin-top: 22px;
+  margin-top: 17px;
   line-height: 24px;
   font-weight: 200;
   color: #1c557a;
@@ -39,7 +39,7 @@ h3 > i {
 
 ul {
   margin-top: 6px;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   list-style-type: none;
   margin-left: 10px;
 }
